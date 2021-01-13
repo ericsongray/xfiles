@@ -7,7 +7,7 @@ const addItem = function (item) {
 ```
 
 ### The api for the cart should have the following methods
-* `cart.items()`
+* `cart.items`
 * `cart.add()` 
 * `cart.remove()`
 
