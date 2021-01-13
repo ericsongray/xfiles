@@ -1,4 +1,4 @@
-## refactor this cart into a function with prototype methods
+### Refactor this cart into a function with prototype methods
 ```
 let cart = [];
 const addItem = function (item) {
@@ -6,12 +6,12 @@ const addItem = function (item) {
 };
 ```
 
-## The api for the cart should have the following methods
+### The api for the cart should have the following methods
 * `cart.items()`
 * `cart.add()` 
 * `cart.remove()`
 
-## Show items
+### Show items
 ```
 > cart.items
 [
@@ -20,19 +20,19 @@ const addItem = function (item) {
 ]
 ```
 
-# Adding items
+### Adding items
 ```
 > cart.add(fruits.apple)
 > apple added to cart
 ```
 
-## Remove items
+### Remove items
 ```
 > cart.remove(fruits.apple)
 > apple removed from cart
 ```
 
-## Follow this tutorial on Prototypes to guide your cart design
+### Follow this tutorial on Prototypes to guide your cart design
 [javascript prototypes](https://www.tutorialsteacher.com/javascript/prototype-in-javascript)
 
 
