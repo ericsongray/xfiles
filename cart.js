@@ -8,15 +8,15 @@ const addItem = function (item) {
 */
 /* Prototype Cart */
 
-function Cart(){
+function Cart() {
   this.items = []
-};
+}
 
-Cart.prototype.add = function(item){
+Cart.prototype.add = function(item) {
   this.items.push(item)
   console.log(`${item.name} added to cart`)
-};
-Cart.prototype.remove = function(item){
+}
+Cart.prototype.remove = function(item) {
   this.items.pop(item)
   console.log(`${item.name} removed from cart`)
 }
