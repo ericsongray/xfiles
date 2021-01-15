@@ -16,6 +16,7 @@ Cart.prototype.add = function(item) {
   this.items.push(item)
   console.log(`${item.name} added to cart`)
 }
+
 Cart.prototype.remove = function(item) {
   const index = this.items.indexOf(item)
   this.items.splice(index, 1)

@@ -31,7 +31,6 @@ We need to scan each item in the cart and use this data to eventually print a re
     '7': { id: 7, name: 'pear', image: '🍐', price: 0.89, qty: 1 }
   },
   total: 2.87,
-  currentId: 7,
   itemsScanned: 3
 }
 ```
